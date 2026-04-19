@@ -2,3 +2,4 @@
 /pyproject.toml
 /uv.lock
 /scheduler_center/logs/
+/scheduler_center/core/config.py
