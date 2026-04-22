@@ -20,7 +20,7 @@ class Settings:
         self.DB_HOST = os.getenv('DB_HOST', '127.0.0.1')
         self.DB_PORT = int(os.getenv('DB_PORT', 3306))
         self.DB_USER = os.getenv('DB_USER', 'root')
-        self.DB_PASSWORD = os.getenv('DB_PASSWORD', 'HelloDotn1227')
+        self.DB_PASSWORD = os.getenv('DB_PASSWORD', '123456')
         self.DB_NAME = os.getenv('DB_NAME', 'task_center')
 
         # Redis 配置
